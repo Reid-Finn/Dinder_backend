@@ -2,18 +2,14 @@
 
 one:
   username: MyString
+  password: MyString
   person1name: MyString
   person2name: MyString
-  zipcode: 1
-  person1restaurants: MyString
-  person2restaurants: MyString
-  password: MyString
+  city: MyString
 
 two:
   username: MyString
+  password: MyString
   person1name: MyString
   person2name: MyString
-  zipcode: 1
-  person1restaurants: MyString
-  person2restaurants: MyString
-  password: MyString
+  city: MyString
