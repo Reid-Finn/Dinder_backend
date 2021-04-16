@@ -1,6 +1,14 @@
 class UsersController < ApplicationController
-  before_action :set_user, only: [:show, :update, :destroy]
+  before_action :set_user, only: [:show, :update, :destroy,]
 
+  def login
+    user = User.find_by(username: params[:username])
+    binding.pry
+    render json: user
+  end
+  
+  
+  
   # GET /users
   def index
     @users = User.all
@@ -46,6 +54,6 @@ class UsersController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def user_params
-      params.require(:user).permit(:username, :person1name, :person2name, :zipcode, :person1restaurants, :person2restaurants, :password)
+      params.require(:user).permit(:username, :person1name, :person2name, :city, :person1restaurants, :person2restaurants, :password)
     end
 end

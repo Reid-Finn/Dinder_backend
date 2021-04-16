@@ -5,6 +5,8 @@ one:
   password: MyString
   person1name: MyString
   person2name: MyString
+  person1restaurant: MyString
+  person2restaurant: MyString
   city: MyString
 
 two:
@@ -12,4 +14,6 @@ two:
   password: MyString
   person1name: MyString
   person2name: MyString
+  person1restaurant: MyString
+  person2restaurant: MyString
   city: MyString
