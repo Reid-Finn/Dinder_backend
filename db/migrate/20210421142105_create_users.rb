@@ -5,9 +5,10 @@ class CreateUsers < ActiveRecord::Migration[6.1]
       t.string :password
       t.string :person1name
       t.string :person2name
-      t.string :person1restaurant
-      t.string :person2restaurant
+      t.text :person1restaurants, array: true, default: []
+      t.text :person2restaurants, array: true, default: []
       t.string :city
+      t.string :currentuser
 
       t.timestamps
     end

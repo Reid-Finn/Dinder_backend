@@ -5,15 +5,17 @@ one:
   password: MyString
   person1name: MyString
   person2name: MyString
-  person1restaurant: MyString
-  person2restaurant: MyString
+  person1restaurants: 
+  person2restaurants: 
   city: MyString
+  currentuser: MyString
 
 two:
   username: MyString
   password: MyString
   person1name: MyString
   person2name: MyString
-  person1restaurant: MyString
-  person2restaurant: MyString
+  person1restaurants: 
+  person2restaurants: 
   city: MyString
+  currentuser: MyString
